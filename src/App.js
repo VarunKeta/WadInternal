@@ -1,9 +1,9 @@
 import {RouterProvider,createBrowserRouter} from 'react-router-dom'
-import RootLayout from './components/miniProject/RootLayout'
-import Home from "./components/miniProject/Home";
-import SignIn from "./components/miniProject/SignIn";
-import SignUp from "./components/miniProject/SignUp";
-import Product from "./components/miniProject/Product";
+import RootLayout from './components/WadInternal/RootLayout'
+import Home from "./components/WadInternal/Home";
+import SignIn from "./components/WadInternal/SignIn";
+import SignUp from "./components/WadInternal/SignUp";
+import Product from "./components/WadInternal/Product";
 
 function App() {
   let router=createBrowserRouter([
